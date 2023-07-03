@@ -1,0 +1,32 @@
+.task {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+}
+.task__radio {
+  display: none;
+}
+.task__name {
+  text-decoration: none;
+}
+.task__name_done {
+  text-decoration: line-through;
+}
+.fake__checker {
+  border: 1px solid #00000040;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: block;
+  margin-right: 5px;
+}
+.fake__checker_done {
+  margin-right: 5px;
+  display: block;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-image: url('../../../public/completedtask.svg');
+}
